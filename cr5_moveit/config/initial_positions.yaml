@@ -1,0 +1,12 @@
+# Default initial positions for cr5_robot's ros2_control fake system
+# Bent-arm ready posture: keep these radians synchronized with the
+# cr5_group 'home' state in cr5_robot.srdf. Panda ready joint angles
+# cannot be copied directly because CR5 has a different kinematic chain.
+
+initial_positions:
+  joint1: 0
+  joint2: 0.4337
+  joint3: -1.4695
+  joint4: -0.2602
+  joint5: 1.7175
+  joint6: 0
